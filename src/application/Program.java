@@ -8,7 +8,7 @@ public class Program {
 	public static void main(String[] args) {		
 		SellerDao seller = DaoFactory.createSellerDao();
 		
-		Integer id = 100;
+		Integer id = 10;
 		
 		if(seller.findByID(id) != null) {
 			System.out.println(seller.findByID(id));
